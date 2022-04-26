@@ -19,7 +19,7 @@
 .dark-mode:root{
     --body-bg: radial-gradient(circle at 102.23% 59.21%, #161414 0, #141313 50%, #121212 100%);
     --body-color: white;
-    --body-color-menu: #828d91
+    --body-color-menu: #828d91;
 }
 
 
@@ -33,10 +33,39 @@ body{
 }
 
 
-.cabeçalho-item-sn:hover{
-        border-top: 0.4px solid rgb(248, 0, 0); /** Criando a borda do topo.**/
+.cabeçalho-itens{
+    cursor: pointer; /* colocando o cursor quando passar para modo click */
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 15px 0;
 }
 
+.cabeçalho-itens:hover {
+    color:#141414;
+}
+
+
+
+/* criando interação do menu */
+
+.cabeçalho-itens:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #17198f;;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    width: 0; /* colanco ele sem largura para não aparecer sem o click */
+}
+
+.cabeçalho-itens:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+/* finalizando interação */
 
 .cabeçalho-menu{
     display: flex;
