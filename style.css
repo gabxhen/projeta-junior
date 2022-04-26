@@ -25,6 +25,7 @@
 
 body{
     background-image: var(--body-bg);
+    height: 1100px;
 }
 
 
@@ -34,6 +35,7 @@ body{
 
 
 .cabeçalho-itens{
+    padding-top:234;
     cursor: pointer; /* colocando o cursor quando passar para modo click */
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -41,7 +43,7 @@ body{
 }
 
 .cabeçalho-itens:hover {
-    color:#141414;
+    color:#353434;
 }
 
 
@@ -55,7 +57,7 @@ body{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #17198f;;
+    background: #31178f;;
     transition: width 0.4s ease 0s, left 0.4s ease 0s;
     width: 0; /* colanco ele sem largura para não aparecer sem o click */
 }
@@ -138,6 +140,17 @@ body{
 }
 
 
+.parte-principal2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
 
-
-
+.img2 {
+    height: 250px;
+    width: 350px;
+}
