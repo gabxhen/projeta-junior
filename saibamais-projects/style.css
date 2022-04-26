@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: radial-gradient(circle at -7.9% 44.93%, #ffffff 0, #ffffff 25%, #ffffff 50%, #e6f0ed 75%, #d1e3dc 100%);
+}
+
+.cabeçalho-img {
+    margin-right: 150px;
+}
+
+.cabeçalho-menu{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabeçalho-img {
+    margin-right: 150px;
+}
+
+.cabeçalho-menu{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 50px;
+}

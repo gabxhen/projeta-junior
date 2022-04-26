@@ -1,0 +1,17 @@
+Paleta de cores para fontes.
+1- 008aff
+2- 00baff
+3- 85c6fd
+
+paragrafos:
+262424
+
+buton:
+2428d6
+
+        <!-- <section class="parte-two-principal">
+            <div class="conteudo-two-principal">
+                <h1 class="conteudo-two-titulo">Desenvolva seu primeiro projeto.</h1>
+                <h3 class="conteudo-two-subt">Atravéz da Project Junior, trás várias ideias de como fazer seu primeiro projeto, cada projeto tem seu pré-requisito e seu nível, você pode .</h3>
+            </div>
+        </section> -->
